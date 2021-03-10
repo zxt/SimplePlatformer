@@ -18,7 +18,7 @@ class Coin {
     }
 }
 
-Coin.prototype.size = new Vec(0.6, 0.6);
+Coin.prototype.size = new Vec(0.8, 0.8);
 
 Coin.prototype.collide = function(state) {
     let filtered = state.actors.filter(a => a != this);
